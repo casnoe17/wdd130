@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Concert+One&family=Roboto+Mono:wght@100;200&display=swap');
+
+:root{
+    --primary-color: #FFFFFF;
+    --secondary--color: #007EA7;
+    --accent1-color: #00A7E1;
+    --accent2-color: #003459;
+  
+    --heading-font: 'Caveat', serif;
+    --paragraph-font: 'Roboto Mono', serif;
+  
+    --nav-background-color: #003459;
+    --nav-link-color: #FFFFFF;
+    --nav-hover-link-color: #003459;
+    --nav-hover-background-color: #FFFFFF;
+}
+
+body{
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 30px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
