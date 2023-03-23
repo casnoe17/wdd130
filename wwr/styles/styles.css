@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Concert+One&family=Roboto+Mono:wght@100;200&display=swap');
 
 :root{
-    --primary-color: white;
-    --secondary--color: #007EA7;
+    --primary-color: #FFFFFF;
+    --secondary-color: #007EA7;
     --accent1-color: #00A7E1;
     --accent2-color: #003459;
   
@@ -14,26 +14,20 @@
     --nav-hover-link-color: #003459;
     --nav-hover-background-color: #FFFFFF;
 }
-
-body{
-    max-width: 960px;
-    padding: 20px;
+p {
+    background-color:var(--accent1-color);
+    padding: 30px;
 }
-
 h1, h2, h3, h4, h5, h6{
     font-family: var(--heading-font);
     color: var(--primary-color);
+    font-size: 2.5vw;
 }
-
-header {
+body{
+    max-width: 960px;
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
 }
-
-p {
-    padding: 30px;
-}
-
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
@@ -55,3 +49,44 @@ nav {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
   }
+  .sociallinks {
+    text-decoration: none;
+  }
+  .hero {
+    position: relative;
+  }
+  .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .hero h1 {
+    position:absolute;
+    bottom: 550px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 52, 89,0.6);
+    text-align: center;
+    
+  }
+.hero article img {
+  width: 100px;
+  height: 100px;
+  float: right;
+}
+.hero article {
+  position: absolute;
+  bottom: 250px;
+  width: 100%;
+  height: auto;
+  background-color:rgba(0, 52, 89,0.6);
+  padding-bottom: 15px;
+}
+.hero article p {
+  background-color: transparent;
+  color: white;
+}
+footer nav a img {
+  height: 50px;
+  width: 50px;
+}
