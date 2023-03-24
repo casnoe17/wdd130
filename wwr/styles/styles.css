@@ -86,7 +86,13 @@ nav {
   background-color: transparent;
   color: white;
 }
+footer p{
+  background-color: transparent;
+  padding: 0px;
+  color: white;
+}
 footer nav a img {
   height: 50px;
   width: 50px;
+  padding: 0px;
 }
