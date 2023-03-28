@@ -63,10 +63,12 @@ footer{
     border-top: 3px solid brown;
     text-align: center;
     padding-bottom: 2px;
-   background-color: #FFCC66;
+    background-color: #FFCC66;
 }
 ul {
-    width: 10em;
+    width: auto;
+    list-style-type: none;
+    text-align: center;
 }
 
 .box {
