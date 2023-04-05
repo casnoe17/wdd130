@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Concert+One&family=Roboto+Mono:wght@100;200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Caveat, serif, Georgia;
+    
+    color: orangered;
+    background-color: black;
+}
+header { 
+    margin-bottom: 10px;
+}
+h1 {
+    font-family: Roboto Mono;
+    font-size: 2em;
+    text-align: center;
+    border-style: inset;
+    border-radius: 5px;
+    border-color: orangered;
+    border-width: 5px;
+}
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: orangered;
+    border-radius: 0.5rem;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: 0.75rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-style: outset;
+    border-width: 10px;
+    border-color: orangered;
+}
+footer {
+    text-align: center;
+    font-size: 1em;
+}
+
+legend {
+    padding: 0;
+    font-size: 2em;
+}
+label, input, button, select, textarea {
+    font-family: Concert One;
+    font-size: 1em;
+}
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 0.75rem;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+    margin-bottom: 10px;
+}
+button {
+    margin: 1rem;
+    border-style: outset;
+    background-color: orangered;
+    color: black;
+    height: 50px;
+    font-size: 1.5em;
+    border-width: 10px;
+}
+button:hover {
+    border-style: inset;
+    background-color: black;
+    color: orangered;
+    border-color:orangered;
+}
+.form-item {
+    display:grid;
+    align-items: center;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}

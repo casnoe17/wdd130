@@ -110,7 +110,7 @@ figcaption {
 }
 .hero h1 {
   position:absolute;
-  bottom: 550px;
+  top: 0;
   width: 100%;
   height: auto;
   background-color: rgba(0, 52, 89,0.6);
@@ -124,6 +124,7 @@ figcaption {
 .hero article {
   position: absolute;
   bottom: 250px;
+  
   width: 100%;
   height: auto;
   background-color:rgba(0, 52, 89,0.6);
