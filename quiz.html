@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="veiwport" content="width=device-width, initial-scale=1">
+        <title>WDD130 | Tyler Case | HTML Form - Quiz</title>
+        <meta name="description" content="Webpage demonstrating how to create a form and poll the user.">
+        <meta name="author" content="Tyler Case">
+        <link rel="stylesheet" href="styles/quiz.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                WDD130 | Tyler Case | HTML Form - Quiz Form
+            </h1>
+        </header>
+        <main>
+            <form>
+                <fieldset>
+                    <legend> Question 1:</legend>
+                    <label for="q1">What does HTML stand for?</label>
+                    <input type="text" id="q1" name="q1">
+                </fieldset>
+                <fieldset>
+                    <legend>Question 2:</legend>
+                    <label for="q2">How would you format the input element for a text box in a form?</label>
+                    <textarea id="q2" name="q2" rows="4" placeholder="Please type your answer here."></textarea>
+                </fieldset>
+                <Fieldset>
+                    <legend>Question 3:</legend>
+                    <label for="q3">How many different ways are there to associate labels with form elements?</label>
+                    <select id="q3" name="q3">
+                        <option value="" selected disabled>Choose one...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </Fieldset>
+                <fieldset>
+                    <legend>Question 4:</legend>
+                    <div class="form-item question4">
+                    <label for="q4">How many columns are created given this declaration?</label>
+                    <p>grid-template-columns: 3fr 1fr;</p>
+                    <input type="number" id="q4" name="q4">
+                    </div>
+                </fieldset>
+                <button type="submit">Submit Quiz</button>
+            </form> 
+        </main>
+        <footer>
+            <p>&copy; | HTML Form - Quiz Form Activity | Tyler Case</p>
+        </footer>
+    </body>
+</html>
