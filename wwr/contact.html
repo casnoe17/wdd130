@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale = 1.0">
     <title>White Water Rafting | Contact Us</title>
-    <meta name="description" content="Rafting Project About Page">
+    <meta name="description" content="Rafting Project Contact Us Page">
     <meta name="author" content="Tyler Case">
     <link rel="stylesheet" href="styles/rafting.css">
   </head>
@@ -71,13 +71,16 @@
             </div>
             <div class="request-type">
                 <Fieldset>
-                    <label for="purpose">Request Type:</label>
-                    <select class="purpose" id="purpose" name="purpose">
-                        <option value="" selected disabled>Choose one...</option>
-                        <option value="inquiry">General Inquiry</option>
-                        <option value="reservation">Reservation Question</option>
-                        <option value="suggestion">Website Suggestion</option>
-                    </select>
+                    <input type="radio" id="inquiry" name="general-inquiry" value="general-inquiry">
+                    <label for="inquiry">General Inquiry</label>
+                </Fieldset>
+                <fieldset>
+                    <input type="radio" id="reservation" name="reservation" value="reservation">
+                    <label for="reserrvation">Reservation</label>
+                </fieldset>
+                <fieldset>
+                    <input type="radio" id="suggestion" name="suggestion" value="suggestion">
+                    <label for="suggestion">Website suggestion</label>
                 </fieldset>
             </div>
             <div class="the-message">

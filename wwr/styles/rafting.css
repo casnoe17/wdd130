@@ -96,7 +96,7 @@ button {
 fieldset {
   border: none;
 }
-textarea, input, label {
+textarea, input, label, .request-type{
   font-family: var(--paragraph-font);
 }
 /*class declarations */
@@ -198,7 +198,7 @@ textarea, input, label {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 0.5fr 0.25fr;
+  grid-template-rows: 0.5fr 1fr 0.5fr 0.25fr;
   font-family: var(--paragraph-font);
   color: var(--primary-color);
   font-size: 0.75vw;
@@ -208,7 +208,9 @@ textarea, input, label {
   grid-column: 1/4;
   grid-row:1;
 }
-
+.request-type {
+  font-size: 0.8em;
+}
 /*ID Delcarations*/
 #contact-info {
   display: grid;
