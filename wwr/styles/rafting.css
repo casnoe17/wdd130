@@ -255,7 +255,23 @@ textarea, input, label, .request-type{
   justify-content: center;
   align-items: center;
 }
+.trips-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(5, 200px)
+}
+.trips-page h1 {
+  grid-column: 1/3;
+  grid-row: 1;
+  text-align: center;
+}
+.trip-form {
+  grid-column: 3/4;
+  grid-row: 2;
+  text-align: center;
+  margin: 0 auto;
 
+}
 /*ID Delcarations*/
 #contact-info {
   display: grid;
@@ -287,4 +303,18 @@ textarea, input, label, .request-type{
 #newsletter label{
   font-family: var(--paragraph-font);
   color:var(--primary-color);
+}
+#trip1 p{
+  grid-column:1/2;
+  grid-row: 3;
+}
+
+#trip2 p{
+  grid-column: 2/3;
+  grid-row: 4;
+}
+
+#trip-table {
+  grid-column: 1/4;
+  grid-row: 5;
 }
