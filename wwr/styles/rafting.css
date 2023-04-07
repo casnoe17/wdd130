@@ -292,31 +292,17 @@ thead {
   grid-column: 1/2;
   grid-row: 4;
 }
-#trip1-img {
-  grid-column:2/3;
-  grid-row: 4;
-}
-#trip2 {
-  grid-column: 2/3;
-  grid-row: 3;
-}
-#trip2-img {
-  grid-column: 1/2;
-  grid-row:3;
-}
-#trip3 {
-  grid-column: 1/2;
-  grid-row: 2;
-}
-#trip3-img {
-  grid-column: 2/3;
-  grid-row: 2;
-}
 .trip-form {
- grid-column: 3/4;
-  grid-row: 3/5;
-  text-align: center;
+  grid-column: 3/4;
+  grid-row: 3;
+  justify-self: center;
+  align-self: center;
   margin: 0 auto;
+  background-color: var(--accent1-color);
+}
+.trip-form:hover {
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
 }
 /*ID Delcarations*/
 #contact-info {
@@ -350,7 +336,26 @@ thead {
   font-family: var(--paragraph-font);
   color:var(--primary-color);
 }
-
+#trip1-img {
+  grid-column:2/3;
+  grid-row: 4;
+}
+#trip2 {
+  grid-column: 2/3;
+  grid-row: 3;
+}
+#trip2-img {
+  grid-column: 1/2;
+  grid-row:3;
+}
+#trip3 {
+  grid-column: 1/2;
+  grid-row: 2;
+}
+#trip3-img {
+  grid-column: 2/3;
+  grid-row: 2;
+}
 #trip-table {
   grid-column: 1/4;
   grid-row: 6;
